@@ -1,17 +1,22 @@
+<p align='center'>
+  <img src='https://user-images.githubusercontent.com/52014318/122763181-6b1c7b00-d274-11eb-9782-541388de299b.png' width='240' />
+</p>
 <h1 align='center'> LETMEASK 💬</h1>
 
 ### forum for plataforms, made with NextJS ⚡️
 
+![Capa](https://user-images.githubusercontent.com/52014318/122763038-4a542580-d274-11eb-9f13-6ee30a8e16f9.png)
+
 ---
 
 ## ScreenShots
-
+![Homepage](https://user-images.githubusercontent.com/52014318/122763319-956e3880-d274-11eb-8a95-e062946c2c05.png)
 
 
 <p align='center'>
-  <img src='' width='240' />
-
+ <img src='' width='240' />
 </p>
+
 
 ## Install
 
