@@ -1,6 +1,6 @@
 <h1 align='center'> LETMEASK 💬</h1>
 
-### Made with NextJS
+### forum for plataforms, made with NextJS ⚡️
 
 ---
 
