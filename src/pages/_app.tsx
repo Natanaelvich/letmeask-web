@@ -1,8 +1,14 @@
 import { AppProps } from 'next/app';
-import '../styles/globals.css';
+import { AuthContextProvider } from '../contexts/AuthContext';
+import '../styles/globals.scss';
+import '../lib/firebase';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <AuthContextProvider>
+      <Component {...pageProps} />
+    </AuthContextProvider>
+  );
 }
 
 export default MyApp;
