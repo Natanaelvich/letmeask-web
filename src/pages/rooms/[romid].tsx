@@ -8,6 +8,7 @@ import { useRoom } from '../../hooks/useRoom';
 import { database } from '../../lib/firebase';
 
 import styles from '../../styles/rooms.module.scss';
+import stylesQuestion from '../../components/Question/styles.module.scss';
 
 type FirebaseQuestions = Record<
   string,
@@ -130,9 +131,9 @@ export default function Room({ romid }) {
                 author={question.author}
               >
                 <button
-                  className={
-                    styles[`like-button ${question.likeId ? 'liked' : ''}`]
-                  }
+                  className={`${stylesQuestion['like-button']} ${
+                    question.likeId && stylesQuestion.liked
+                  }`}
                   type="button"
                   aria-label="Marcar como gostei"
                   onClick={() => {
