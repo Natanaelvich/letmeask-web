@@ -5,13 +5,13 @@ import { Question } from '../../../components/Question';
 import { RoomCode } from '../../../components/RoomCode';
 import { useRoom } from '../../../hooks/useRoom';
 import { database } from '../../../lib/firebase';
-import '../../../styles/rooms.module.scss';
+import styles from '../../../styles/rooms.module.scss';
 
 type RoomParams = {
   id: string;
 };
 
-export function AdminRoom({ id }: RoomParams) {
+export default function AdminRoom({ id }: RoomParams) {
   // const { user } = useAuth()
   const router = useRouter();
   const roomId = id;
@@ -33,10 +33,10 @@ export function AdminRoom({ id }: RoomParams) {
   }
 
   return (
-    <div id="page-room">
+    <div id={styles['page-room']}>
       <header>
-        <div className="content">
-          <img src="images/logo.svg" alt="Letmeask" />
+        <div className={styles.content}>
+          <img src="/images/logo.svg" alt="Letmeask" />
           <div>
             <RoomCode code={roomId} />
             <Button isOutlined onClick={handleEndRoom}>
@@ -47,12 +47,12 @@ export function AdminRoom({ id }: RoomParams) {
       </header>
 
       <main>
-        <div className="room-title">
+        <div className={styles['room-title']}>
           <h1>Sala {title}</h1>
           {questions.length > 0 && <span>{questions.length} pergunta(s)</span>}
         </div>
 
-        <div className="question-list">
+        <div className={styles['question-list']}>
           {questions.map(question => {
             return (
               <Question
@@ -64,7 +64,7 @@ export function AdminRoom({ id }: RoomParams) {
                   type="button"
                   onClick={() => handleDeleteQuestion(question.id)}
                 >
-                  <img src="images/delete.svg" alt="Remover pergunta" />
+                  <img src="/images/delete.svg" alt="Remover pergunta" />
                 </button>
               </Question>
             );
