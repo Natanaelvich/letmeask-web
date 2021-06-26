@@ -1,3 +1,4 @@
+
 <p align='center'>
   <img src='https://user-images.githubusercontent.com/52014318/122763181-6b1c7b00-d274-11eb-9782-541388de299b.png' width='240' />
 </p>
@@ -8,14 +9,6 @@
 ![Capa](https://user-images.githubusercontent.com/52014318/122763038-4a542580-d274-11eb-9f13-6ee30a8e16f9.png)
 
 ---
-
-## ScreenShots
-![Homepage](https://user-images.githubusercontent.com/52014318/122763319-956e3880-d274-11eb-8a95-e062946c2c05.png)
-
-
-<p align='center'>
- <img src='' width='240' />
-</p>
 
 
 ## Install
@@ -35,6 +28,19 @@ or
 or
 
     $yarn dev
+    
+    
+## ScreenShots
+
+![screencapture-localhost-3000-rooms-new-2021-06-25-23_05_26](https://user-images.githubusercontent.com/52014318/123499135-d1095980-d60a-11eb-85e2-5e689e70dcb6.png)
+
+![screencapture-localhost-3000-2021-06-25-23_05_15](https://user-images.githubusercontent.com/52014318/123499136-d1a1f000-d60a-11eb-8793-6d0a7e1cb63b.png)
+
+![screencapture-localhost-3000-rooms-Md53ALJ296oMiLJ6B7r-2021-06-25-23_05_47](https://user-images.githubusercontent.com/52014318/123499134-d1095980-d60a-11eb-996e-21bf03a3a0b7.png)
+
+![screencapture-localhost-3000-rooms-Md53ALJ296oMiLJ6B7r-2021-06-25-23_06_18](https://user-images.githubusercontent.com/52014318/123499133-d1095980-d60a-11eb-9e44-315a138cbd17.png)
+
+![screencapture-localhost-3000-admin-rooms-Md53ALJ296oMiLJ6B7r-2021-06-25-23_10_27](https://user-images.githubusercontent.com/52014318/123499132-d070c300-d60a-11eb-8441-ff27c8b0f5d4.png)
 
 ## Languages & tools
 
